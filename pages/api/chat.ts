@@ -49,7 +49,8 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { OpenAI } from "openai";
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: "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",
+  // apiKey: process.env.OPENAI_API_KEY,
   baseURL: 'https://openrouter.ai/api/v1',
 });
 
