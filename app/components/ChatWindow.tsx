@@ -242,14 +242,25 @@ const ChatWindow = () => {
 
       {/* Input */}
       <div className="p-4 bg-white border-t flex items-center gap-3">
-        <input
+        {/* <input
           type="text"
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
           onKeyDown={handleKeyDown}
           placeholder="Ask a question about the school..."
           className="flex-1 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 transition"
-        />
+        /> */}
+
+        <input
+  type="text"
+  value={userInput}
+  onChange={(e) => setUserInput(e.target.value)}
+  onKeyDown={handleKeyDown}
+  placeholder="Ask a question about the school..."
+  className="flex-1 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 transition 
+             text-black placeholder-gray-500 bg-white text-base sm:text-sm"
+/>
+
         <button
           onClick={sendMessage}
           className="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full font-semibold shadow-lg transition-all"
