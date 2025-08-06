@@ -217,7 +217,7 @@ const ChatWindow = () => {
           className="rounded-full bg-white p-1 shadow-md"
         />
         <div>
-          <h1 className="text-xl font-bold">Federal College of Forestry</h1>
+          <h1 className="text-xl font-bold">Federal College of Forestry, JOS</h1>
           <p className="text-sm opacity-90">🎓 Official Chat Assistant</p>
         </div>
       </div>
